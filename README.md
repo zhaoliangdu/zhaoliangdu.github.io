@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 6ef33f045255566dbe251905d450323f_820881347f3911f18ce5525400826444
+    ReservedCode1: 1iZqUHwEVL3j3TZ+zg8Gw8cg8nTHf9mcMfGi9+M0S0uW8qmfsTm6NkOfVQeQKWCGf2HEdc9eNj1VHHGXIkjRKu+KK9rVns8IGGkNYWeJL+eMdO6t4ee8KvC7j0sQoDFwN1Ft5/5f2WUXwT5tYmjrWF2iBXgaJUyW2LhosDP6mlH05OZlRLV5+W2seW0=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 6ef33f045255566dbe251905d450323f_820881347f3911f18ce5525400826444
+    ReservedCode2: 1iZqUHwEVL3j3TZ+zg8Gw8cg8nTHf9mcMfGi9+M0S0uW8qmfsTm6NkOfVQeQKWCGf2HEdc9eNj1VHHGXIkjRKu+KK9rVns8IGGkNYWeJL+eMdO6t4ee8KvC7j0sQoDFwN1Ft5/5f2WUXwT5tYmjrWF2iBXgaJUyW2LhosDP6mlH05OZlRLV5+W2seW0=
+---
 
-You can use the [editor on GitHub](https://github.com/zhaoliangdu/zhaoliangdu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# 赵良度 · 个人网站
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://zhaoliangdu.github.io/)
 
-### Markdown
+高级Java开发工程师个人网站，基于 HTML5 UP "Read Only" 模板构建。展示专业技能、项目经验与联系方式。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 技术栈
 
-```markdown
-Syntax highlighted code block
+- **后端**：Java · SpringBoot · SpringCloud · MyBatis · MySQL · PostgreSQL · Oracle · Redis · RabbitMQ
+- **前端**：Vue · React · 微信小程序 · HTML5 · CSS3
+- **AI**：AI API 集成 · 智能体开发 · Skill 开发 · AI 辅助全流程研发
+- **工程化**：Git · Maven · Jenkins · Linux 部署 · Nacos · Sentinel
 
-# Header 1
-## Header 2
-### Header 3
+## 本地运行
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+git clone https://github.com/zhaoliangdu/zhaoliangdu.github.io.git
+cd zhaoliangdu.github.io
+# 直接用浏览器打开 index.html，或使用任意静态服务器
+python -m http.server 8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+访问 `http://localhost:8000` 即可预览。
 
-### Jekyll Themes
+## 项目结构
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhaoliangdu/zhaoliangdu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+.
+├── index.html          # 主页面
+├── _config.yml         # Jekyll 配置
+├── images/             # 图片资源（头像、横幅、项目截图）
+│   ├── avatar.jpeg
+│   ├── banner.jpg
+│   └── ...
+└── assets/             # 静态资源
+    ├── css/            # 样式
+    ├── js/             # 脚本
+    ├── sass/           # SCSS 源文件
+    └── webfonts/       # Font Awesome 字体
+```
 
-### Support or Contact
+## 部署
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+本站通过 GitHub Pages 自动部署，推送至 `main` 分支即可触发构建。
+
+> **注意**：`_config.yml` 中已移除 Jekyll 默认主题配置（`theme: jekyll-theme-cayman`），确保自定义 HTML 模板正常渲染。
+
+## 待完善
+
+- [ ] 替换项目截图（`images/pic01.jpg` ~ `pic03.jpg`）为真实项目截图
+- [ ] 在 [Formspree](https://formspree.io/) 注册并替换联系表单的 `your-form-id`
+- [ ] 替换邮箱为真实联系方式
+- [ ] 添加 `images/favicon.ico` 网站图标
+
+## License
+
+Design: [HTML5 UP](https://html5up.net) (CCA 3.0) | Content: &copy; 2025 赵良度
+*（内容由AI生成，仅供参考）*
