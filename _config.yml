@@ -1,6 +1,7 @@
 # Jekyll 配置
 # 注意：不使用 Jekyll 主题，本站使用自定义 HTML 模板
 # 若启用下方 theme，GitHub Pages 将忽略自定义 index.html
+# deployed_to_cloudflare_pages: 2026-08-01
 
 title: "赵良度 | 高级Java开发工程师"
 description: "8年Java后端经验，精通Spring微服务/AI应用开发/全栈开发"
